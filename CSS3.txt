@@ -1,0 +1,106 @@
+# CSS3
+
+### 过度效果
+
+##### transition:4s all ;
+
+1过度时长
+
+2过度属性（默认为all）
+
+3延迟时长
+
+4运动形式
+
+linear：匀速
+
+ease-in：加速
+
+ease-out：减速
+
+ease-in-out：先加速后退速
+
+cubic-bezier（）：贝塞尔曲线
+
+：hover{
+
+width:600px;
+
+background:red
+
+}
+
+### 2D变换旋转
+
+设置元素的要有过度效果完成此效果需要多长时间
+
+transition:3   醇-Z逊
+
+transform-origin:0 bottom旋转的基点基点的位置是相对于要旋转的的元素 
+
+ 醇s-佛m变化
+
+#### 翻转
+
+div：hover{
+
+transform：rotate(720deg)\ro-\忑特循环旋转
+
+#### 缩放
+
+transform:scaleX(-2)s-k		大于1为放大 0-1为缩小负数时反转效果一样
+
+transform:scaleY()
+
+#### 位移
+
+transform:translateY(200px)醇s-立特
+
+#### 倾斜
+
+transform：skewY(90deg)死-旧（客家话）
+
+}
+
+3D变换
+
+1创建3D空间：
+
+transform-style：preserve-3d\匹-ze保存
+
+2设置景深
+
+perspective: 值越小, 景深越大
+
+3景深基点
+
+perspective-origin：left top(X轴 Y轴)[默认中心点]
+
+3D变换：
+
+transform：translateZ：z轴位移
+
+transform：rotateX：绕着X轴旋转
+
+transform：translate3d（x，y，z）
+
+
+
+动画帧
+
+改变的元素设置动画帧animation  额尼-\妹逊  动画
+
+animation：10s wobble  infinite/该动画完成的时间是10s  在方法是wobble完成infinite无限的in坟呢t
+
+@-webkit-keyframes wobble {写法两种
+
+0%{}25%{}50%{}75%{}100%{}或
+
+form{}to{}
+
+}
+
+opacity哦帕死提透明度
+
+单位
+
